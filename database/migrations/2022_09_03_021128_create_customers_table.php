@@ -17,7 +17,7 @@ class CreateCustomersTable extends Migration
             $table->id();
             $table->string('nama');
             $table->string('alamat');
-            $table->bigInteger('telp');
+            $table->string('telp');
             $table->timestamps();
         });
     }

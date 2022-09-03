@@ -75,9 +75,6 @@
                                     <button class="btn btn-danger delete-btn" title="Delete" value="{{$customer->id}}">
                                         <i class="fas fa-trash"></i>
                                     </button>
-                                    <button class="btn btn-danger delete-btn" title="Delete" value="{{$customer->id}}">
-                                        <i class="fas fa-trash"></i>
-                                    </button>
                                 </td>
                             </tr>
                             @endforeach
